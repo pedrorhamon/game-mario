@@ -97,7 +97,6 @@ function animate() {
         }
     }
     platforms.forEach((platform) => {
-
         if (player.position.y + player.height <=
             platform.position.y &&
             player.position.y + player.height +
